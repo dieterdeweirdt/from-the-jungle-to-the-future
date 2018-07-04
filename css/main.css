@@ -1,4 +1,30 @@
-body {
+html {
     background: #000;
-    
+    font-family: Helvetica, sans-serif;
+    color: #FFF;
+    min-height: 100%;
+}
+
+body {
+    padding: 30px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #FFED00;
+}
+
+.btn {
+    display: inline-block;
+    border: solid 1px #FFED00;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.screen {
+    height: 80vh;
 }
