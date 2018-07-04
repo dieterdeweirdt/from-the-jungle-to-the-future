@@ -20,7 +20,8 @@ function checkKey(e) {
 
 }
 
-document.getElementById('xd').addEventListener('click', function(){
+document.getElementById('xd').addEventListener('click', function(evt){
+    evt.preventDefault();
     window.open('https://xd.adobe.com/view/e1d48496-5122-49d7-66b0-dffca2dd173d-97e5/?fullscreen&hints=off','_blank');
     document.getElementById('next').click();
 });
