@@ -3,12 +3,27 @@ html {
     font-family: Helvetica, sans-serif;
     color: #FFF;
     min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 body {
     padding: 30px;
+    margin: 0;
     text-align: center;
     min-height: 100vh;
+}
+
+body.full-screen-bg {
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 h1 {
@@ -24,7 +39,12 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.btn.disabled {
+    opacity: .5;
+}
 .screen {
     height: 80vh;
 }
+
+.buttons { position: absolute; right: 30px; bottom: 30px; }
+
