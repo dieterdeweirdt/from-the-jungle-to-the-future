@@ -13,21 +13,27 @@ img {
 }
 
 body {
-    padding: 30px;
     margin: 0;
     text-align: center;
     min-height: 100vh;
-}
-
-body.full-screen-bg {
-    padding: 0;
+    padding: 30px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    text-shadow: 0 0 10px #000;
 }
+
 
 h1 {
     color: #FFED00;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+h2 { 
+    color: #FFED00;
+    font-size: 2rem;
 }
 
 .btn {
@@ -46,5 +52,29 @@ h1 {
     height: 80vh;
 }
 
+.video {
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+
 .buttons { position: absolute; right: 30px; bottom: 30px; }
 
+
+.boxes {
+    margin-top: 30vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box {
+    padding: 20px 30px;
+    width: 40%;
+    border: solid 3px #FFED00;
+    border-radius: 5px;
+    margin: 10px;
+    background: rgba(0,0,0,.4);
+}
