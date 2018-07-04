@@ -58,8 +58,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-.buttons { position: absolute; right: 30px; bottom: 30px; }
-.buttons.left { left: 30px; text-align: left; }
+.buttons { position: absolute; right: 10px; bottom: 10px; }
+.buttons.left { left: 10px; text-align: left; }
 
 .boxes {
     margin-top: 30vh;
@@ -71,7 +71,7 @@ h2 {
 }
 
 .box {
-    padding: 20px 30px;
+    padding: 15px 30px;
     width: 40%;
     border: solid 3px #FFED00;
     border-radius: 5px;
